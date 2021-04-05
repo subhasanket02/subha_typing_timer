@@ -1,0 +1,123 @@
+body
+{
+    margin: 0;
+}
+.main-header
+{
+    font-family: 'Ubuntu',sans-serif;
+    background-color: #0e0c0a;
+    color: white;
+    padding: 16px;
+}
+.text-section
+{
+    margin: 50px auto auto auto;
+    max-width: 750px;
+    background-color: #e1dfdd;
+    padding: 15px;
+    text-align: center;
+    font-size: 25px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px black;
+}
+.text-section p
+{
+    margin: 0;
+}
+.text-area-section
+{
+    text-align: center;
+}
+.text-area-div
+{
+    margin: auto;
+    margin: 750px;
+}
+#text-area
+{
+    border: 10px solid gray;
+    border-radius: 20px;
+    font-size: 25px;
+    font-family: sans-serif;
+    text-align: center;
+}
+#text-area:focus
+{
+    outline: none;
+}
+.result-section
+{
+    margin-bottom: 20px;
+}
+.result-section-div
+{
+    margin: 0 auto;
+    max-width: 750px;
+}
+.result-section-div span
+{
+    font-size: 25px;
+}
+.result-section-div button
+{
+
+    display: block;
+    margin: 20px auto;
+    background-color: orangered;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border: none;
+    text-align: center;
+    font-size: 30px;
+    cursor: pointer;
+    border-radius: 4px;
+    width: 200px;
+    box-shadow: 0 0 15px black;
+    border-radius: 15px;
+}
+.side-2-section button
+{
+    border-radius: 20px;
+    padding: 10px;
+    font-size: 18px;
+}
+.side-2-section button:hover
+{
+    box-shadow: 0 0 10px black;
+}
+.result-section-div button:hover
+{
+    background-color: red;
+}
+.cong-section-div h3{
+    
+    /* background: linear-gradient(45deg,aqua,rgb(62, 168, 97),deeppink); */
+    margin: auto;
+    text-align: center;
+    /* border: 2px solid black; */
+    width: 250px;
+    /* box-shadow: 0 0 10px blue; */
+    border-radius: 30px;
+    color: aqua;
+}
+.cong-section-div{
+    margin: 0 auto;
+    max-width: 750px;
+}
+footer{
+    background-color:blue;
+    color: white;
+    text-align: center;
+    padding: 25px;
+    font-size: 20px;
+    margin-top: 180px;
+    line-height: 10px;
+}
+#minutes , #seconds , #m-seconds{
+    color: red;
+}
+.t-card{
+    border-radius: 10px;
+    box-shadow: 0 0 10px red !important;
+}

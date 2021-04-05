@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="mdb/css/bootstrap.css">
+    <link rel="stylesheet" href="mdb/css/mdb.css">
+    <link rel="stylesheet" href="text_timer.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <header class="main-header text-center">
+        <h1>Typing Texting App</h1>
+    </header>
+
+    <div class=" container-fluid">
+        <div class="row">
+            <div class=" col-md-9 mt-3 col-lg-9  col-sm-12">
+                <div class="card t-card">
+                    <div class=" card-body">
+                        <section class="side-1-section">
+                            <section class=" text-section">
+                                <div class=" tet-section-div">
+                                    <p id="original-text">Thank you for learning UI Technology.</p>
+                                </div>
+                            </section>
+                            <br>
+                            <section class="text-area-section ">
+                                <div class="tet-area-div ">
+                                    <textarea onpaste="return false" id="text-area" rows="4" cols="53"
+                                        placeholder="Start Typing Here..."
+                                        class="col-md-9 col-sm-9"></textarea>
+                                </div>
+                            </section>
+                            <br>
+                            <section class=" result-section">
+                                <div class="result-section-div">
+                                    <span class="timer">
+                                        <span id="minutes">00</span>Mins
+                                        <span id="seconds">00</span> Seconds
+                                        <span id="m-seconds">00</span>Milli Seconds
+                                    </span>
+                                    <div>
+                                        <button type="button" id="reset">Reset</button>
+                                    </div>
+                                </div>
+                            </section>
+                            <section class="cong-section">
+                                <div class="cong-section-div " >
+                                    <h3 style="display: none;" id="congo">Congrats!!!!</h3>
+                                </div>
+                                <audio id="claps">
+                                    <source src="clap.wav" type="audio/wav">
+                                </audio>
+                                <audio id="dog">
+                                    <source src="dog.wav" type="audio/wav">
+                                </audio>
+                            </section>
+                        </section>
+                    </div>
+                </div>
+            </div>
+            <div class=" col-md-3 mt-4 ">
+                <section class="side-2-section  col-md-12 col-sm-12">
+                    <button class="btn btn-primary btn-block mt-2 " onclick="changeText(0) ">Lesson1</button>
+                    <button class="btn btn-secondary btn-block mt-2" onclick="changeText(1)">Lesson2</button>
+                    <button class="btn btn-success btn-block mt-2 " onclick="changeText(2)">Lesson3</button>
+                    <button class="btn btn-danger btn-block mt-2" onclick="changeText(3)">Lesson 4</button>
+                    <button class="btn btn-indigo btn-block mt-2" onclick="changeText(4)">Lesson 5</button>
+                    <button class="btn btn-info btn-block mt-2 " onclick="changeText(5)">Lesson 6</button>
+                    <button class="btn btn-dark btn-block mt-2 " onclick="changeText(6)">Lesson 7</button>
+                    <button class="btn btn-dark-green btn-block mt-2" onclick="changeText(7)">Lesson 8</button>
+                    <button class="btn btn-primary btn-block mt-2" onclick="changeText(8)">Lesson 9</button>
+                    <button class="btn btn-secondary btn-block mt-2" onclick="changeText(9)">Lesson 10</button>
+                </section>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <h3>Copyrights &copy;2021 </h3>
+        <p>All Rights Are Reserved</p>
+        <small>Developed & Maintained by subha</small>
+    </footer>
+    <script src="text_timer.js"></script>
+</body>
+
+</html>
