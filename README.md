@@ -1,2 +1,2 @@
 # subha_typing_timer
- sexy site
+ thiss made of HTML,CSS,JAVASCRIPT
